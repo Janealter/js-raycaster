@@ -18,7 +18,7 @@ export default function init () {
   const raysContext = raysCanvas.getContext('2d');
   const viewContext = viewCanvas.getContext('2d');
 
-  if (!mapContext || !raysContext || !viewContext) throw new Error('Canvas context is on available');
+  if (!mapContext || !raysContext || !viewContext) throw new Error('Canvas context is not available');
 
   return { mapContext, raysContext, viewContext };
 }
