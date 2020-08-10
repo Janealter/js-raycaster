@@ -1,0 +1,7 @@
+.DS_store
+node_modules
+build
+electron-builder.env
+.vscode
+.env
+.cache

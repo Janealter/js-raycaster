@@ -1,0 +1,20 @@
+{
+  "name": "js-raycaster",
+  "version": "1.0.0",
+  "description": "Kind of raycasting 3D engine",
+  "main": "build/index.html",
+  "scripts": {
+    "dev": "rm -rf build && parcel src/index.html --out-dir build",
+    "build": "rm -rf build && parcel build src/index.html --out-dir build --public-url .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janealter",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  }
+}
